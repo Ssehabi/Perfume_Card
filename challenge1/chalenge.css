@@ -1,0 +1,88 @@
+body {
+  overflow: hidden;
+  background-color: hsl(30, 38%, 92%);
+}
+.center {
+  margin: 10px 300px;
+  height: 520px;
+  width: 750px;
+  background-color: white;
+  position: relative;
+  /* padding-right: 0px; */
+  top: 30px;
+  border-radius: 10px;
+}
+.price {
+  font-size: 30px;
+  font-weight: 100px;
+  color: hsl(158, 36%, 37%);
+
+  font-family: "Fraunces", serif;
+}
+#price {
+  margin-bottom: 40px;
+}
+p {
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+}
+button {
+  padding: 15px 100px;
+  border-radius: 10px;
+  border-style: hidden;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  font-size: 18px;
+}
+del {
+  margin: 20px;
+  font-size: 18px;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 10px;
+}
+.content {
+  position: absolute;
+  top: -20px;
+  right: 0%;
+  left: 55%;
+  width: 50%;
+}
+.img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+.parfum {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  letter-spacing: 10px;
+}
+.titre {
+  margin-bottom: 10px;
+  width: 60%;
+  height: 100px;
+  font-weight: 900;
+}
+.paragraph {
+  width: 60%;
+  height: 50%;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
